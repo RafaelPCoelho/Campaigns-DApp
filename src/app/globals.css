@@ -13856,5 +13856,40 @@ fieldset:disabled .btn {
     display: none !important
   }
 }
+/* src/app/globals.css */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
 
+.navbar-brand {
+  font-weight: bold;
+}
+
+.nav-link.active {
+  font-weight: 500;
+  color: #0d6efd !important;
+}
+
+main {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
 /*# sourceMappingURL=bootstrap.min.css.map */
+:root {
+  --font-inter: 'Inter', sans-serif;
+  --font-roboto-mono: 'Roboto Mono', monospace;
+  /* ou */
+  --font-geist-sans: 'Geist Sans', sans-serif;
+  --font-geist-mono: 'Geist Mono', monospace;
+}
+
+body {
+  font-family: var(--font-inter); /* ou var(--font-geist-sans) */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+code, .font-mono {
+  font-family: var(--font-roboto-mono); /* ou var(--font-geist-mono) */
+}
