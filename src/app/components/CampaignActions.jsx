@@ -7,16 +7,10 @@ export default function CampaignActions({ campaignId }) {
   return (
     <div className="d-flex gap-2">
       <Link 
-        href={`/campaigns/${campaignId}`} 
+        href={`/donate/${campaignId}`}
         className="btn btn-sm btn-outline-primary"
       >
         Details
-      </Link>
-      <Link
-        href={`/donate/${campaignId}`}
-        className="btn btn-sm btn-success"
-      >
-        Donate
       </Link>
     </div>
   );
