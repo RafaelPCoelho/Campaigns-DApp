@@ -26,7 +26,7 @@ export default function Home() {
       <div className="container px-4 mx-auto">
         <div className="row flex-lg-row-reverse align-items-center g-5">
           <div className="col-6">
-            <img src="/HomeImage.png" className="d-block mx-lg-auto img-fluid" width="700" height="700" />
+            <img src="/HomeImage.jpg" className="d-block mx-lg-auto img-fluid" width="700" height="700" />
           </div>
           <div className="col-6">
             <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">Donate Crypto</h1>
